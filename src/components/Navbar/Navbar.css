@@ -19,7 +19,7 @@ div#navbarContainer {
 
 
 div#completeLogo {
-  /* background-color: turquoise; */
+  background-color: turquoise;
   width: 380px;
   display: flex;
   align-items: center;
@@ -28,8 +28,9 @@ div#completeLogo {
   font-weight: bold;
   /* color: #01fc93; */
   color: #0f161e;
-  @media (max-width: 450px) {
+  @media (max-width: 750px) {
     font-size: 2.8vw;
+    width: 80%;
   }
 }
 

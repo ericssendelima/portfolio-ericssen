@@ -18,8 +18,8 @@ div#greetingContainer {
 
   @media (max-width: 750px) {
     /* padding: 20px 0; */
-    margin-left: 3em;
-    width: 75%;
+    margin-left: 1.5em;
+    width: 85%;
     margin-bottom: 0;
     font-size: 3.7vw;
   }

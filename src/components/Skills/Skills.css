@@ -48,7 +48,7 @@ div#Skills p {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
   div#skillIconsContainer,
   div#toolsIconsContainer,
   div#leaningIconsContainer {

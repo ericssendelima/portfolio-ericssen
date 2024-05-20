@@ -30,13 +30,13 @@ div#contentHome {
   width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   /* div#Home {
     filter: blur(2px);
   } */
 
   div#contentHome {
-    top: 350px;
+    top: 35vh;
     
   }
 }
