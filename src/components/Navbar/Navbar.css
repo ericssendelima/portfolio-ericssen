@@ -19,7 +19,7 @@ div#navbarContainer {
 
 
 div#completeLogo {
-  background-color: turquoise;
+  /* background-color: turquoise; */
   width: 380px;
   display: flex;
   align-items: center;
