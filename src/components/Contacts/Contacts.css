@@ -1,0 +1,78 @@
+div#Contatos {
+  height: 85vh;
+  margin-bottom: 50px;
+  color: antiquewhite;
+  font-family: "Special Elite";
+  padding: 10px 35px 10px 35px;
+  margin-top: 10px;
+
+}
+
+div#Contatos h1 {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a2bfd7;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  /* background-color: #293142; */
+  width: 100%;
+  margin-bottom: 35px;
+  color: #a2bfd7;
+
+}
+
+/* background-color: #846031; */
+
+div#iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  /* background-color: #846031; */
+  height: 60%;
+}
+
+a#Links {
+  text-decoration: none;
+  color: antiquewhite;
+  
+} 
+
+div#iconsContainer div{
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  width: 140px;
+  text-decoration: none;
+}
+
+div#iconsContainer div p {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  div#iconsContainer {
+    /* background-color: #af915d; */
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 65%;
+  }
+
+  div#iconsContainer div {
+    height: 120px;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(157, 127, 255); */
+    cursor: pointer;
+  }
+
+  div#iconsContainer div p {
+    margin: 20px 0 0 0;
+    /* background-color: aquamarine; */
+  }
+
+}

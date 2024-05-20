@@ -1,0 +1,19 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 5px;
+
+}
+
+body {
+  background-color: #0F161E;
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+  
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+};
+
+

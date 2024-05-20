@@ -1,0 +1,96 @@
+div#greetingContainer {
+  /* background-color: #af915d; */
+  background-color: #cedce9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0f161e;
+  width: 320px;
+  padding: 5px;
+  padding-top: 0;
+  height: 150px;
+  font-family: "Special Elite";
+  border-radius: 9px;
+  margin-left: 150px;
+  font-size: 15px;
+  box-shadow: #0f161efb 0px 8px 60px -20px inset;
+
+  @media (max-width: 650px) {
+    /* padding: 20px 0; */
+    margin-left: 48px;
+    width: 75%;
+    margin-bottom: 0;
+    font-size: 3.7vw;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+div#main{
+  /* background-color: #5b8d3c; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 90%;
+  height: 90%;
+}
+
+div#main h1, div#main h4{
+  margin: 0;
+  margin-top: 15px;
+}
+
+span#soon {
+  animation: animate 4s linear infinite;
+  color: brown;
+}
+
+span#myName {
+  color: #7c1e06;
+}
+
+
+div#main h1 {
+  color: #3c678d;
+}
+
+h1#typing {
+  width: 16.6ch;
+  animation: typing 5s steps(18) infinite,
+    blinking 0.5s step-end infinite alternate;
+
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 1.8em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}

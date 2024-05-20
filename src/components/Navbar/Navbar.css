@@ -1,0 +1,74 @@
+div#navbarContainer {
+  /* background-color: #4e81a9; */
+  background-color: #a2bfd7;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+
+  @media (max-width: 450px) {
+    height: 12vw;
+  }
+}
+
+
+
+div#completeLogo {
+  /* background-color: turquoise; */
+  width: 380px;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: bold;
+  /* color: #01fc93; */
+  color: #0f161e;
+  @media (max-width: 450px) {
+    font-size: 2.8vw;
+  }
+}
+
+span#surname {
+  color: #a42303;
+}
+
+span#nameLogo {
+  margin-right: 5px;
+}
+
+span#noSugar {
+  color: #019393;
+}
+
+span#parenteses {
+  color: #aea833;
+}
+
+.keys {
+  color: #0c49ba;
+}
+
+div#menuNav {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #0f161e;
+  margin-right: 25px;
+  cursor: pointer;
+
+  @media (max-width: 400px) {
+    font-size: 7.5vw;
+  }
+}
+
+div#noMenu {
+  color: transparent;
+  font-size: 0;
+  margin: 0;
+  /* visibility: hidden; */
+}

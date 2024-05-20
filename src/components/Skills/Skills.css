@@ -1,0 +1,83 @@
+div#Skills {
+  margin-bottom: 50px;
+  color: antiquewhite;
+  font-family: "Special Elite";
+  padding: 50px 35px 10px 35px;
+  margin-top: 15px;
+}
+
+div#Skills h1 {
+  color: #a2bfd7;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a2bfd7;
+  width: 100%%;
+}
+
+div#Skills h2 {
+  color: #a2bfd7;
+  margin-top: 50px;
+}
+
+/* background-color: #846031; */
+
+div#skillIconsContainer,
+div#toolsIconsContainer,
+div#leaningIconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  /* background-color: #846031; */
+  height: 60%;
+}
+
+div#skillIconsContainer div,
+div#toolsIconsContainer div,
+div#leaningIconsContainer div {
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  width: 140px;
+  margin-top: 20px;
+}
+
+div#Skills p {
+  margin-left: 15px;
+  color: #cedce9;
+}
+
+
+@media screen and (max-width: 450px) {
+  div#skillIconsContainer,
+  div#toolsIconsContainer,
+  div#leaningIconsContainer {
+    /* background-color: #846031; */
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 80%;
+  }
+
+  div#skillIconsContainer div,
+  div#toolsIconsContainer div,
+  div#leaningIconsContainer div {
+    height: 150px;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: rgb(157, 127, 255); */
+    margin-top: 50px;
+  }
+
+  div#Skills p {
+    margin: 20px 0;
+    color: #cedce9;
+    /* background-color: brown; */
+    text-align: center;
+  }
+
+  div#Skills svg,
+  div#Skills img {
+    /* background-color: #af915d; */
+    margin-top: 20px;
+  }
+}

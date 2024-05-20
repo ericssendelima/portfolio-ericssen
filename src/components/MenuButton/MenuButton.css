@@ -1,0 +1,23 @@
+div#MenuButtonContainer #menuAppOpen {
+    background-color: #0F161E;
+    border-radius: 8px;
+    color: #a2bfd7;
+    font-size: 40px;
+    position: fixed;
+    right: 5px;
+    top: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  div#MenuButtonContainer #menuAppClose {
+    color: #cedce9;
+    font-size: 35px;
+  
+    margin-right: 10px;
+    z-index: 1;
+    cursor: pointer;
+    position: fixed;
+    visibility: hidden;
+  }

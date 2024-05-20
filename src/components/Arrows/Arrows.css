@@ -1,0 +1,39 @@
+div#arrows {
+    font-family: "Special elite";
+    position: sticky;
+    /* left: 100%; */
+    left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    bottom: 10px;
+    display: flex;
+    width: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #cedce9;
+  }
+  
+  div#arrows > span {
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    padding-right: 2px;
+    margin-bottom: 3px;
+  }
+  
+  div#arrows > #arrow1 {
+    animation: animate 1.5s linear infinite;
+    color: #01fc93;
+  }
+  
+  div#arrows > #arrow2 {
+    animation: animate 2s linear infinite;
+    color: #01fc93;
+  }

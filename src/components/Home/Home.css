@@ -1,0 +1,46 @@
+div#homeContainer {
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+div#Home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../images/1033740.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+  @media (max-width:450px) {
+    opacity: 0.9;
+    filter: blur(1px);
+    
+  }
+}
+
+div#contentHome {
+  display: flex;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 280px;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  /* div#Home {
+    filter: blur(2px);
+  } */
+
+  div#contentHome {
+    top: 350px;
+    
+  }
+}
