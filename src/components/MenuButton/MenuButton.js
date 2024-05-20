@@ -12,7 +12,7 @@ const MenuButton = ({ config }) => {
   } = config;
 
   const handleClick = () => {
-    if (screenWidth < 450) {
+    if (screenWidth < 750) {
       setMenuClicked(true); 
       //O Menu fixo foi clicado num celular
     }

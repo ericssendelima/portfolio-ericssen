@@ -15,16 +15,17 @@ const Navbar = ({ clicked }) => {
   });
 
   useEffect(() => {
-    if (window.screen.width > 450) {
+    if (window.screen.width > 750) {
       setMenuIsOpen(true);
       setConfig({ home: "Home", contact: "Contatos" });
-    } else if (window.screen.width < 450 && clicked) {
+    } else if (window.screen.width < 750 && clicked) {
       setMenuIsOpen(true);
       setConfig({
         home: <FaHome size={23} />,
         contact: <MdContactPhone size={23} />,
       });
     }
+    // eslint-disable-next-line
   }, []);
 
   return (

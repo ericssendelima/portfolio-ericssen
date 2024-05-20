@@ -54,7 +54,7 @@ div#iconsContainer div p {
   justify-content: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   div#iconsContainer {
     /* background-color: #af915d; */
     flex-wrap: wrap;

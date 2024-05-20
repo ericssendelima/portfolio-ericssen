@@ -9,7 +9,7 @@ nav#menuContainer {
 
   @media (max-width:1200px) {
     width: 50%;
-  margin-left:15px;
+    margin-left: 2em;
 
   }
 }
@@ -43,11 +43,11 @@ nav#menuContainer a {
   transition: 1s;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   nav#menuContainer {
     justify-content: space-between;
     height: 50px;
-    width: 98%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -58,7 +58,7 @@ nav#menuContainer a {
 
   nav#menuContainer a {
     margin-right: 2px;
-    margin-left: 10px;
+    margin-left: 0.4em;
     /* background-color: aqua; */
   }
 
@@ -67,9 +67,9 @@ nav#menuContainer a {
     align-items: center;
     justify-content: center;
     color: #0f161e;
-    font-size: 32px;
+    font-size: 2em;
     margin-left: 5px;
-    margin-right: 15px;
+    margin-right: 0.5em;
     /* background-color: blue; */
   }
 }

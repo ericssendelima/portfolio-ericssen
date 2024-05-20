@@ -16,9 +16,9 @@ div#greetingContainer {
   font-size: 15px;
   box-shadow: #0f161efb 0px 8px 60px -20px inset;
 
-  @media (max-width: 650px) {
+  @media (max-width: 750px) {
     /* padding: 20px 0; */
-    margin-left: 48px;
+    margin-left: 3em;
     width: 75%;
     margin-bottom: 0;
     font-size: 3.7vw;
@@ -74,7 +74,7 @@ div#main h1 {
 
 h1#typing {
   width: 16.6ch;
-  animation: typing 5s steps(18) infinite,
+  animation: typing 4s steps(18) infinite,
     blinking 0.5s step-end infinite alternate;
 
   white-space: nowrap;

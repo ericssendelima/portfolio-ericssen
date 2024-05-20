@@ -18,11 +18,7 @@ div#Home {
   background-size: cover;
   z-index: -1;
 
-  @media (max-width:450px) {
-    opacity: 0.9;
-    filter: blur(1px);
-    
-  }
+  
 }
 
 div#contentHome {
@@ -34,7 +30,7 @@ div#contentHome {
   width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   /* div#Home {
     filter: blur(2px);
   } */
