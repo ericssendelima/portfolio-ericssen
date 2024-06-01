@@ -16,6 +16,7 @@ const ProjectCards = ({ proj }) => {
         <Images
           arrImg={images}
           position={{ positionControl, setPositionControl }}
+          proj={proj}
         />
         <div id="pointsContainer">
           {images.map((img, i) => {

@@ -73,14 +73,18 @@ div#main h1 {
 }
 
 h1#typing {
-  width: 16.6ch;
-  animation: typing 4s steps(18) infinite,
+  width: 95%;
+  animation: typing 3s steps(18) infinite,
     blinking 0.5s step-end infinite alternate;
 
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-size: 1.8em;
+
+  @media  (max-width:750px) {
+    width: 88%;
+  }
 }
 
 @keyframes typing {

@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import ProjectCards from "../ProjectCards/ProjectCards";
 
-import { data } from "../Data/data";
+import { data } from "../../Data/data";
 
 import { DiTerminal } from "react-icons/di";
 

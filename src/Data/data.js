@@ -1,11 +1,11 @@
 export const data = [{
     titulo: "Meu Portfólio",
     descricao:
-      "Site criado para facilitar minha apresantação, principais projetos e meus contatos. ",
+      "Site criado para facilitar minha apresantação, expor principais projetos e meus contatos. ",
     descricaocompleta:
       "Projeto desenvolvido do absoluto zero, após buscar inspirações em outros portfólios na web, porém, sem copiar nenhum componente, visando desenvolver minhas habilidades de desenvolvimento e pesquisa.",
     tags: "React JS",
-    images: ["", "", "" ],
+    images: ["https://i.imgur.com/eItt6QM.jpeg", "https://i.imgur.com/vpDR0Ss.jpeg", "https://i.imgur.com/jHIzpoU.jpeg", "https://i.imgur.com/aa9GDGR.jpeg", "https://i.imgur.com/wm9NHLA.jpeg", "https://i.imgur.com/yiQjHIp.jpeg", "https://i.imgur.com/8OoD1mm.jpeg", "https://i.imgur.com/mXX3qmU.jpeg", "https://i.imgur.com/gYkNgM0.jpeg", "https://i.imgur.com/3nLrFgF.jpeg" ],
     url: "",
   },
   {
@@ -15,7 +15,7 @@ export const data = [{
     descricaocompleta:
       "Sistema web desenvolvido com o objetivo de extinguir filas e o uso de papel. Cada colaborador solicita pelo seu próprio aparelho - celular ou pc - e envia sua solicitação para o whatsapp do encarregado",
     tags: "React JS, Context API, Axios, Bootstrap",
-    images: ["", "", "" ],
+    images: ["https://i.imgur.com/9lNgBIT.jpeg", "https://i.imgur.com/OPjlMSS.jpeg", "https://i.imgur.com/WAoy6dn.jpeg", "https://i.imgur.com/U3OVmPP.jpeg", "https://i.imgur.com/w31LEMz.jpeg", "https://i.imgur.com/SlFEVR9.jpeg", "https://i.imgur.com/HhmSwHJ.jpeg", "https://i.imgur.com/6x8bCTa.jpeg" ],
     url: "https://ericssendelima.github.io/epi-lista/",
   },
   {
