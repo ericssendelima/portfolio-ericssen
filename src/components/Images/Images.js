@@ -44,7 +44,7 @@ const Images = ({ arrImg, position, proj }) => {
       )}
 
       {isDetailsOn ? (
-        <Details config={{ arrImg, lastPosition}} close={{ isDetailsOn, setIsDetailsOn }} proj={proj} />
+        <Details config={{ arrImg, lastPosition, position}} close={{ isDetailsOn, setIsDetailsOn }} proj={proj} />
       ) : null}
     </div>
   );

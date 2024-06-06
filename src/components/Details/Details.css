@@ -46,18 +46,20 @@ div#detailsHeader h1 {
 .closeDetails {
   /* background-color: red; */
   font-size: clamp(1.8rem, 2.5vw, 3rem);
-  cursor:pointer;
+  cursor: pointer;
 }
 
 div#detailsImages {
   background-color: #29314235;
-  min-height: 70%;
-  /* max-height: 200px; */
-  /* min-width: 60%; */
+  /* min-height: 70%; */
+  height: 100%;
   width: 100%;
   position: relative;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div#pointsDetailsContainer {
@@ -133,14 +135,14 @@ div#pointsDetailsContainer {
   padding-left: 4px;
 }
 
-div#teste{
-  background-color: coral;
+div#teste {
+  /* background-color: coral; */
   position: relative;
-  height: 80%;
+  height: 100%;
   display: flex;
   align-items: center;
-  min-width: 60%;
-
+  /* min-width: 60%; */
+  width: 60%;
 }
 
 div#imgDetailsBackground {
@@ -151,17 +153,14 @@ div#imgDetailsBackground {
   align-items: center;
   justify-content: center;
   object-fit: contain;
-
-
 }
 
 div#imgDetailsBackground img {
-  /* max-width: 40em;
-  max-height: 30em; */
+  /* max-width: 40em; */
+  max-height: 86%;
   width: 100%;
-  height: 410px;
+  /* height: 450px; */
   object-fit: contain;
-  border-radius: 8px 8px 0 0;
 }
 
 div#detailsDescriptions {
@@ -170,15 +169,62 @@ div#detailsDescriptions {
   height: 100%;
   display: flex;
   flex-direction: column;
+  border-radius: 7px;
 }
 
 div#completeDescription {
-  background-color: #01fc93;
-  padding: 5px;
+  /* background-color: #01fc93; */
+  padding: 0 20px;
   height: 50%;
+  line-height: 1.8em;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+div#completeDescription h3{
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: space-between;
 }
 
 div#footerDetailsDescriptions {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   height: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div#externalLink {
+  width: 40%;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+div#externalLink a{
+  background-color:  #1a1f29;
+  color: #01fc93;
+  display: flex;
+  width: 45px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+div#detailsButtons{
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 830px) {
+  div#teste {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 20px;
+  }
 }

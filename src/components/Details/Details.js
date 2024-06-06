@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./Details.css";
 
@@ -6,10 +6,10 @@ import { IoClose } from "react-icons/io5";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { TbPointFilled } from "react-icons/tb";
-// import { HiExternalLink } from "react-icons/hi";
+import { HiExternalLink } from "react-icons/hi";
+import { DiGithubBadge } from "react-icons/di";
 
 const Details = ({ close, proj, config }) => {
-  const [detailsPositionControl, setDetailsPositionControl] = useState(0);
   return (
     <div id="detailsContainer">
       <div id="detailsHeader">
@@ -23,11 +23,13 @@ const Details = ({ close, proj, config }) => {
       <div id="detailsBody">
         <div id="teste">
           <div id="detailsImages">
-            {detailsPositionControl > 0 && (
+            {config.position.positionControl > 0 && (
               <div
                 className="arrowDetailsContainerLeft"
                 onClick={() =>
-                  setDetailsPositionControl(detailsPositionControl - 1)
+                  config.position.setPositionControl(
+                    config.position.positionControl - 1
+                  )
                 }
               >
                 <IoIosArrowBack className="arrowDetailsProjLeft" />
@@ -35,14 +37,19 @@ const Details = ({ close, proj, config }) => {
             )}
 
             <div id="imgDetailsBackground">
-              <img src={config.arrImg[detailsPositionControl]} alt="proj" />
+              <img
+                src={config.arrImg[config.position.positionControl]}
+                alt="proj"
+              />
             </div>
 
-            {detailsPositionControl < config.lastPosition && (
+            {config.position.positionControl < config.lastPosition && (
               <div
                 className="arrowDetailsContainerRight"
                 onClick={() =>
-                  setDetailsPositionControl(detailsPositionControl + 1)
+                  config.position.setPositionControl(
+                    config.position.positionControl + 1
+                  )
                 }
               >
                 <IoIosArrowForward className="arrowDetailsProjRight" />
@@ -54,7 +61,9 @@ const Details = ({ close, proj, config }) => {
               return (
                 <TbPointFilled
                   key={i}
-                  className={i === detailsPositionControl && "atualDetailsImg"}
+                  className={
+                    i === config.position.positionControl && "atualDetailsImg"
+                  }
                 />
               );
             })}
@@ -62,11 +71,30 @@ const Details = ({ close, proj, config }) => {
         </div>
         <div id="detailsDescriptions">
           <div id="completeDescription">
+            <h3>
+              Descrição{" "}
+              <div id="detailsButtons">
+                <div id="externalLink">
+                  <a href={proj.github} target="_blank" rel="noreferrer">
+                    <DiGithubBadge size={32} />
+                  </a>
+                </div>
+                <div id="externalLink">
+                  <a href={proj.url} target="_blank" rel="noreferrer">
+                    <HiExternalLink size={22} />
+                  </a>
+                </div>
+              </div>
+            </h3>
             <p>{proj.descricaocompleta}</p>
           </div>
           <div id="footerDetailsDescriptions">
-            <div id="tagsDetails">em construção...</div>
-            <div id="externalLink"></div>
+            <div id="tagsDetails">
+              em construção...
+              {/* {proj.tags.map((tag) => {
+                <li>{tag}</li>;
+              })} */}
+            </div>
           </div>
         </div>
       </div>

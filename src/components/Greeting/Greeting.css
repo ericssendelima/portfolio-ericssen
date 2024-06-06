@@ -1,6 +1,9 @@
 div#greetingContainer {
   /* background-color: #af915d; */
-  background-color: #cedce9;
+  /* background-color: #aebccb; */
+  /* background-color: #a2bfd7; */
+  background-color: #98a5b4;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +72,7 @@ span#myName {
 
 
 div#main h1 {
-  color: #3c678d;
+  color: #395983;
 }
 
 h1#typing {

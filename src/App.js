@@ -56,7 +56,7 @@ function App() {
       <About screen={screenPosition} />
       <Skills />
       <Projects />
-      <Arrows />
+      <Arrows config={screenPosition}/>
       <Contacts />
       {screenPosition > 400 ? <Subir /> : null}
       <Footer />
