@@ -30,6 +30,8 @@ const ProjectCards = ({ proj }) => {
                 key={i}
                 className={i === positionControl && "atualImg"}
                 onClick={()=>chosenImage(i)}
+                style={{cursor:"pointer"}}
+
               />
             );
           })}

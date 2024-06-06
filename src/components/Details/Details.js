@@ -68,6 +68,7 @@ const Details = ({ close, proj, config }) => {
                     i === config.position.positionControl && "atualDetailsImg"
                   }
                   onClick={()=>chosenImage(i)}
+                  style={{cursor:"pointer"}}
                 />
               );
             })}
