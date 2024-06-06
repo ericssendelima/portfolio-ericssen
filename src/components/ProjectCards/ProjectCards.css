@@ -81,6 +81,7 @@ div#pointsContainer {
   z-index: 1;
   bottom: 155px;
   color: #293142;
+  cursor: pointer;
 }
 
 .atualImg {

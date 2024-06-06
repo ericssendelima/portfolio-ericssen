@@ -11,6 +11,10 @@ const ProjectCards = ({ proj }) => {
   const { titulo, descricao, tags, images, url, github } = proj;
   const [positionControl, setPositionControl] = useState(0);
 
+  const chosenImage = (index) => {
+    setPositionControl(index)
+  }
+
   return (
     <div id="projectCardsContainer">
       <div id="headerCard">
@@ -25,6 +29,7 @@ const ProjectCards = ({ proj }) => {
               <TbPointFilled
                 key={i}
                 className={i === positionControl && "atualImg"}
+                onClick={()=>chosenImage(i)}
               />
             );
           })}

@@ -10,6 +10,9 @@ import { HiExternalLink } from "react-icons/hi";
 import { DiGithubBadge } from "react-icons/di";
 
 const Details = ({ close, proj, config }) => {
+  const chosenImage = (index) => {
+    config.position.setPositionControl(index)
+  }
   return (
     <div id="detailsContainer">
       <div id="detailsHeader">
@@ -64,6 +67,7 @@ const Details = ({ close, proj, config }) => {
                   className={
                     i === config.position.positionControl && "atualDetailsImg"
                   }
+                  onClick={()=>chosenImage(i)}
                 />
               );
             })}
