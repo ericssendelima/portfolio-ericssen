@@ -5,15 +5,15 @@ const Greeting = () => {
   return (
     <div id="greetingContainer">
       <div id="main">
-        <h4>
-          Olá, meu nome é <span id="myName">Yalê</span>
-        </h4>
+        <h5>
+          Olá, meu nome é&nbsp;&nbsp;<span id="myName">Yalê</span>
+        </h5>
 
-        <h1 id="typing">Desenvolvedor Web</h1>
+        <h2 id="typing">Desenvolvedor Web</h2>
 
-        <h4>
+        <h5>
           Full Stack<span id="soon">&nbsp;&nbsp;(Carregando...)</span>
-        </h4>
+        </h5>
       </div>
     </div>
   );

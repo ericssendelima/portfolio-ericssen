@@ -7,7 +7,7 @@ import { MdContactPhone } from "react-icons/md";
 
 import MenuNav from "../MenuNav/MenuNav";
 
-const Navbar = ({ clicked }) => {
+const Navbar = ({ clicked, screenPosition }) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [config, setConfig] = useState({
     home: <FaHome size={23} />,
@@ -29,7 +29,6 @@ const Navbar = ({ clicked }) => {
   }, []);
 
   return (
-    // <div id={navIsOpen ? "navbarContainer" : "navbarHidden"}>
     <div id="navbarContainer">
       <div id="completeLogo">
         <span>
@@ -47,7 +46,7 @@ const Navbar = ({ clicked }) => {
         </span>
       </div>
       {menuIsOpen && (
-        <MenuNav close={{ menuIsOpen, setMenuIsOpen }} config={{ config }} clicked={clicked}/>
+        <MenuNav close={{ menuIsOpen, setMenuIsOpen }} config={{ config, screenPosition }} clicked={clicked}/>
       )}
 
       <div

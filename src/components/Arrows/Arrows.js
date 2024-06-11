@@ -9,7 +9,7 @@ const Arrows = ({config}) => {
       <span>Scroll Down</span>
       <TbArrowBadgeDown id="arrow1" />
       <TbArrowBadgeDown id="arrow2" />
-      <TbArrowBadgeDown id="arrow1" />
+      {config > 99 && <TbArrowBadgeDown id="arrow1" />}
     </div>
   );
 };

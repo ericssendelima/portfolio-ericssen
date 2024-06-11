@@ -1,5 +1,8 @@
 div#navbarContainer {
-  background-color: #6b8096;
+  /* background-color: #6b8096; */
+  /* background-color: #0F161F; */
+  background-color: #192430;
+
 
 
   height: 50px;
@@ -27,7 +30,7 @@ div#completeLogo {
   font-size: 13px;
   font-weight: bold;
   /* color: #01fc93; */
-  color: #0f161e;
+  color: #a2bfd7;
   @media (max-width: 750px) {
     font-size: 2.8vw;
     width: 80%;
@@ -58,7 +61,7 @@ div#menuNav {
   display: flex;
   align-items: center;
   font-size: 35px;
-  color: #0f161e;
+  color: #a2bfd7;
   margin-right: 25px;
   cursor: pointer;
 

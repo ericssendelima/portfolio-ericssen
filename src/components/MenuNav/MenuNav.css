@@ -2,8 +2,7 @@ nav#menuContainer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: #6b8096;
-
+  background-color: #192430;
 
   margin-left:50px;
   width: 65%;
@@ -27,8 +26,9 @@ nav#menuContainer a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #0f161e;
-  /* color: black; */
+  /* color: #0f161e; */
+  color: #a2bfd7;
+
   /* background-color: aqua; */
   margin-left: 20px;
   font-family: monospace;
@@ -60,7 +60,7 @@ nav#menuContainer a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0f161e;
+    color: #a2bfd7;
     font-size: 2em;
     margin-left: 5px;
     margin-right: 0.5em;

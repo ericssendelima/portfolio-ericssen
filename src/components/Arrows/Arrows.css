@@ -10,7 +10,6 @@ div#arrows {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #cedce9;
     transition: 0.4s;
 
   }
@@ -43,12 +42,15 @@ div#arrows {
     margin: 0;
     padding-right: 2px;
     margin-bottom: 8px;
+    color: #A2BFD7;
   }
 
   div#centerArrows > span {
     /* background-color: #A2BFD7; */
     /* color: #0F161E; */
-    background-color: #798fa03a;
+    /* background-color: #798fa03a; */
+  background-color: #19243081;
+
     color: #01fc93;
     font-weight: 900;
     display: flex;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import "./App.css";
 
-import About from "./components/About/About";
+// import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
@@ -26,24 +27,29 @@ function App() {
       setNavbarIsOpen(false); //Fecha a Navbar
       setMenuAppOpen(true); //O Menu Fixo foi Aberto
 
-      setMenuClicked(false);  
-
+      setMenuClicked(false);
     } else {
       setNavbarIsOpen(true); //Abre a Navbar
       setMenuAppOpen(false); //O Menu Fixo foi Fechado
-    };
+    }
     // console.log(navbarIsOpen, screenPosition);
   };
 
   return (
-    <div>
+    <div id="App">
       {navbarIsOpen && menuClicked ? (
         <Navbar clicked={{ menuClicked }} />
       ) : navbarIsOpen ? (
-        <Navbar />
+        <Navbar screenPosition={screenPosition} />
       ) : null}
 
       <Home />
+      <div id="buttonsHome">
+        <a href="#Projetos">
+          <button id="projetos">Ver Projetos</button>
+        </a>
+        <button id="about">Mais sobre mim</button>
+      </div>
       <MenuButton
         config={{
           screenWidth,
@@ -53,10 +59,10 @@ function App() {
           menuAppOpen,
         }}
       />
-      <About screen={screenPosition} />
-      <Skills />
+      {/* <About screen={screenPosition} /> */}
       <Projects />
-      <Arrows config={screenPosition}/>
+      <Skills />
+      <Arrows config={screenPosition} />
       <Contacts />
       {screenPosition > 400 ? <Subir /> : null}
       <Footer />
