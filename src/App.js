@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 
-// import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
@@ -11,11 +10,14 @@ import Contacts from "./components/Contacts/Contacts";
 import MenuButton from "./components/MenuButton/MenuButton";
 import Subir from "./components/Subir/Subir";
 import Footer from "./components/Footer/Footer";
+import MoreAboutMe from "./components/MoreAboutMe/MoreAboutMe";
 
 function App() {
   const [screenPosition, setScreenPosition] = useState(0);
   const [menuAppOpen, setMenuAppOpen] = useState(false);
   const [navbarIsOpen, setNavbarIsOpen] = useState(true);
+
+  const [moreAboutMeIsOpen, setMoreAboutMeIsOpen] = useState(false);
 
   const [menuClicked, setMenuClicked] = useState(false);
   const screenWidth = window.screen.width;
@@ -35,6 +37,10 @@ function App() {
     // console.log(navbarIsOpen, screenPosition);
   };
 
+  const openMoreAboutMe = () => {
+    setMoreAboutMeIsOpen(!moreAboutMeIsOpen);
+  };
+
   return (
     <div id="App">
       {navbarIsOpen && menuClicked ? (
@@ -48,8 +54,9 @@ function App() {
         <a href="#Projetos">
           <button id="projetos">Ver Projetos</button>
         </a>
-        <button id="about">Mais sobre mim</button>
+        <button id="about" onClick={()=>openMoreAboutMe()}>Mais sobre mim</button>
       </div>
+      {moreAboutMeIsOpen ? <MoreAboutMe control={{moreAboutMeIsOpen, setMoreAboutMeIsOpen}}/> : null}
       <MenuButton
         config={{
           screenWidth,
@@ -59,7 +66,6 @@ function App() {
           menuAppOpen,
         }}
       />
-      {/* <About screen={screenPosition} /> */}
       <Projects />
       <Skills />
       <Arrows config={screenPosition} />

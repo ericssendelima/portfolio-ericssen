@@ -6,7 +6,6 @@ div#detailsContainer {
   top: 0;
   left: 0;
   z-index: 99;
-  /* color: blue; */
   display: flex;
   flex-direction: column;
   overflow: auto;
@@ -71,7 +70,6 @@ div#pointsDetailsContainer {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
-
 }
 
 .atualDetailsImg {
@@ -182,7 +180,7 @@ div#completeDescription {
   font-size: 1.5em;
 }
 
-div#completeDescription h3{
+div#completeDescription h3 {
   /* background-color: cadetblue; */
   display: flex;
   justify-content: space-between;
@@ -205,8 +203,8 @@ div#externalLink {
   justify-content: flex-end;
 }
 
-div#externalLink a{
-  background-color:  #1a1f29;
+div#externalLink a {
+  background-color: #1a1f29;
   color: #01fc93;
   display: flex;
   width: 45px;
@@ -216,7 +214,7 @@ div#externalLink a{
   border-radius: 5px;
 }
 
-div#detailsButtons{
+div#detailsButtons {
   /* background-color: chocolate; */
   display: flex;
   justify-content: space-between;
@@ -227,5 +225,33 @@ div#detailsButtons{
     width: 100%;
     height: 90%;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  div#detailsHeader {
+    margin: 0;
+    background-color: #0f161e;
+    /* margin: 1em 1em 0 1.5em; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 200;
+  }
+
+  div#detailsBody {
+    margin-top: 90px;
+  }
+
+  div#detailsHeader h1 {
+    /* background-color: aquamarine; */
+    margin-left: 15px;
+    width: 50%;
+  }
+
+  .closeDetails {
+    margin-right: 15px;
   }
 }
