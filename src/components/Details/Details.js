@@ -11,8 +11,10 @@ import { DiGithubBadge } from "react-icons/di";
 
 const Details = ({ close, proj, config }) => {
   const chosenImage = (index) => {
-    config.position.setPositionControl(index)
-  }
+    config.position.setPositionControl(index);
+  };
+
+  const tagsDetails = proj.tags.split(",");
   return (
     <div id="detailsContainer">
       <div id="detailsHeader">
@@ -67,8 +69,8 @@ const Details = ({ close, proj, config }) => {
                   className={
                     i === config.position.positionControl && "atualDetailsImg"
                   }
-                  onClick={()=>chosenImage(i)}
-                  style={{cursor:"pointer"}}
+                  onClick={() => chosenImage(i)}
+                  style={{ cursor: "pointer" }}
                 />
               );
             })}
@@ -95,10 +97,12 @@ const Details = ({ close, proj, config }) => {
           </div>
           <div id="footerDetailsDescriptions">
             <div id="tagsDetails">
-              em construção...
-              {/* {proj.tags.map((tag) => {
-                <li>{tag}</li>;
-              })} */}
+              <h2>Tecnologias utilizadas</h2>
+              <ul>
+                {tagsDetails.map((tag) => {
+                  return <li key={tag}>{tag}</li>;
+                })}
+              </ul>
             </div>
           </div>
         </div>
