@@ -3,7 +3,6 @@ import "./Navbar.css";
 
 import { CgMenu } from "react-icons/cg";
 import { FaHome } from "react-icons/fa";
-import { MdContactPhone } from "react-icons/md";
 
 import MenuNav from "../MenuNav/MenuNav";
 
@@ -11,7 +10,7 @@ const Navbar = ({ clicked, screenPosition }) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [config, setConfig] = useState({
     home: <FaHome size={23} />,
-    contact: <MdContactPhone size={23} />,
+    contact: "Contatos",
   });
 
   useEffect(() => {
@@ -22,7 +21,7 @@ const Navbar = ({ clicked, screenPosition }) => {
       setMenuIsOpen(true);
       setConfig({
         home: <FaHome size={23} />,
-        contact: <MdContactPhone size={23} />,
+        contact: "Contatos",
       });
     }
     // eslint-disable-next-line

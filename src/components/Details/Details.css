@@ -106,6 +106,7 @@ div#pointsDetailsContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .arrowDetailsProjLeft {
@@ -261,5 +262,10 @@ div#tagsDetails ul{
 
   .closeDetails {
     margin-right: 15px;
+  }
+
+  div#footerDetailsDescriptions{
+    background-color: rgb(94, 94, 138);
+    margin-top: 10px;
   }
 }

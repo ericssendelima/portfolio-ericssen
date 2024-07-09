@@ -15,6 +15,8 @@ const Details = ({ close, proj, config }) => {
   };
 
   const tagsDetails = proj.tags.split(",");
+
+
   return (
     <div id="detailsContainer">
       <div id="detailsHeader">
@@ -28,6 +30,7 @@ const Details = ({ close, proj, config }) => {
       <div id="detailsBody">
         <div id="teste">
           <div id="detailsImages">
+            
             {config.position.positionControl > 0 && (
               <div
                 className="arrowDetailsContainerLeft"

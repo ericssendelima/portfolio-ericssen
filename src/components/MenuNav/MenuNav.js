@@ -10,7 +10,7 @@ const MenuNav = ({ close, config, clicked }) => {
     <nav id="menuContainer">
       {config.screenPosition < 105 ? null : <a href="#Home">{config.config.home}</a>}
 
-      <a href="#Sobre">Sobre</a>
+      {/* <a href="#Sobre">Sobre</a> */}
       <a href="#Projetos">Projetos</a>
       <a href="#Skills">Habilidades</a>
       <a href="#Contatos">{config.config.contact}</a>
