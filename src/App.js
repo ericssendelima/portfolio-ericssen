@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState } from "react";
 import "./App.css";
 
@@ -72,6 +73,7 @@ function App() {
       <Contacts />
       {screenPosition > 400 ? <Subir /> : null}
       <Footer />
+      <Analytics />
     </div>
   );
 }
