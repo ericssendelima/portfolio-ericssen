@@ -12,7 +12,7 @@ const Greeting = () => {
         <h2 id="typing">Dev Full stack</h2>
 
         <h5>
-          Status<span id="soon">&nbsp;&nbsp;(aprendendo...)</span>
+          Evoluindo<span id="soon">&nbsp;&nbsp;(e aprendendo...)</span>
         </h5>
       </div>
     </div>
