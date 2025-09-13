@@ -14,7 +14,7 @@ import { FaNode } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { BiLogoTypescript } from "react-icons/bi";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiDotnet } from "react-icons/si";
 import { DiGithubBadge } from "react-icons/di";
 
 
@@ -23,13 +23,22 @@ const Contacts = () => {
     <div id="Skills">
       <h1>Habilidades</h1>
       <div id="skillIconsContainer">
-        <div id="box">
-          <IoLogoHtml5 size={50} color="#DD4B25" />
-          <p>Html5</p>
+        <div>
+          <FaNode size={90} color="#7AB462"/>
+          <p>Node JS</p>
         </div>
-        <div id="box">
-          <IoLogoCss3 size={50} color="#1965A5" />
-          <p>Css3</p>
+        <div>
+          <BiLogoTypescript size={90} color="#2F74C0"/>
+          <p>Typescript</p>
+        </div>
+        <div>
+          <img
+            alt="csharp"
+            style={{ width: "50px" }}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+          />
+
+          <p>C#</p>
         </div>
         <div id="box">
           <IoLogoJavascript size={65} color="#EFD81D" />
@@ -38,6 +47,14 @@ const Contacts = () => {
         <div id="box">
           <FaReact size={50} color="#5ED3F3" />
           <p>React JS</p>
+        </div>
+        <div id="box">
+          <IoLogoHtml5 size={50} color="#DD4B25" />
+          <p>Html5</p>
+        </div>
+        <div id="box">
+          <IoLogoCss3 size={50} color="#1965A5" />
+          <p>Css3</p>
         </div>
       </div>
       <h2>
@@ -78,21 +95,29 @@ const Contacts = () => {
         Estudando...
       </h2>
       <div id="leaningIconsContainer">
-        <div>
+        {/* <div>
           <FaGitAlt size={50} color="#E84E31"/>
           <p>Git</p>
-        </div>
-        <div>
-          <BiLogoTypescript size={90} color="#2F74C0"/>
-          <p>Typescript</p>
-        </div>
-        <div>
-          <FaNode size={90} color="#7AB462"/>
-          <p>Node JS</p>
+        </div> */}
+        <div >
+          <img
+            alt="dotnet"
+            style={{width: "50px"}}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+          />
+          <p>.NET Core</p>
         </div>
         <div>
           <TbBrandReactNative size={90} color="#5ED3F3"/>
           <p>React Native</p>
+        </div>
+        <div >
+          <img
+            alt="SQLServer"
+            style={{ width: "58px"}}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+          />
+          <p>SQL Server</p>
         </div>
         <div>
           <BiLogoPostgresql size={90} color="#31648C"/>
