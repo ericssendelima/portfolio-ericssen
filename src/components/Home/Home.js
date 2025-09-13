@@ -12,7 +12,7 @@ const Home = () => {
       </div>
       <div id="describeContainer">
         <p>
-          Sou um curioso apaixonado por programação, estudando Análise e
+          Sou um curioso apaixonado por programação, formado em Análise e
           Desenvolvimento de Sistemas e trabalhando na produção de torres
           eólicas. Sonho em ser desenvolvedor de software.
         </p>

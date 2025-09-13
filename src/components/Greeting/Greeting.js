@@ -9,10 +9,10 @@ const Greeting = () => {
           Olá, meu nome é&nbsp;&nbsp;<span id="myName">Yalê</span>
         </h5>
 
-        <h2 id="typing">Desenvolvedor Web</h2>
+        <h2 id="typing">Dev Full stack</h2>
 
         <h5>
-          Full Stack<span id="soon">&nbsp;&nbsp;(Carregando...)</span>
+          Status<span id="soon">&nbsp;&nbsp;(aprendendo...)</span>
         </h5>
       </div>
     </div>

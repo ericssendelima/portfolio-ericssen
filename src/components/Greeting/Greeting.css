@@ -16,7 +16,7 @@ div#greetingContainer {
   /* box-shadow: #0f161e 0px 8px 10px 20px inset; */
 
   @media (max-width: 1000px) {
-  background-color: #192430d0;
+    background-color: #192430d0;
 
     padding: 0;
     padding-bottom: 10px;
@@ -79,7 +79,7 @@ div#main h2 {
 }
 
 h2#typing {
-  width: 95%;
+  width: 80%;
   animation: typing 3s steps(18) infinite,
     blinking 0.5s step-end infinite alternate;
 
@@ -89,7 +89,7 @@ h2#typing {
   font-size: 1.7em;
 
   @media (max-width: 1000px) {
-    width: 10.3em;
+    width: 8.2em;
     font-size: 1.1em;
 
     /* background-color: #835d39; */
