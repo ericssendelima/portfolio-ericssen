@@ -24,8 +24,8 @@ export const data = [{
     titulo: "Relatório de Produção",
     descricao:
       "Sistema para automatizar a criação do relatório diário da produção de uma empresa.",
-    descricaocompleta: "Relatório diário da produção, com envio para o whatsapp, consulta do histórico de relatórios e alteração de dados - CRUD.",
-    tags: "React JS, Styled-Components, Firebase, CRUD",
+    descricaocompleta: "Relatório diário da produção, com envio para o whatsapp, consulta do histórico de relatórios e alteração de dados.",
+    tags: "React JS, Styled-Components, Firebase",
     images: ["https://i.imgur.com/A1nFcnT.jpeg", "https://i.imgur.com/NXWvzDu.jpeg", "https://i.imgur.com/RsIfddB.jpeg", "https://i.imgur.com/zu4ERQR.jpeg", "https://i.imgur.com/z1tMTNN.jpeg", "https://i.imgur.com/dLL3Bjq.jpeg", "https://i.imgur.com/cwBUOZp.jpeg", "https://i.imgur.com/YvtS67B.jpeg", "https://i.imgur.com/heRVJoe.jpeg", "https://i.imgur.com/7gsRZGK.jpeg", "https://i.imgur.com/DbGWCMv.jpeg", "https://i.imgur.com/Noo1ac9.jpeg" ],
     url: "",
     github: "https://github.com/ericssendelima/relatorio-producao"
@@ -35,17 +35,17 @@ export const data = [{
     descricao:
       "Catálogo digital de produtos de uma loja. ",
     descricaocompleta: "Criado para facilitar o acesso de clientes aos produtos de uma loja, criar seu pedido e enviá-lo para o whatsapp do estabelecimento.",
-    tags: "React JS, React-Router-Dom, Bootstrap, Firebase",
+    tags: "React JS, Typescript, Vite, Css Modules, Firebase",
     images: ["https://i.imgur.com/MSQEaLD.jpeg", "https://i.imgur.com/rf7xcvG.jpeg", "https://i.imgur.com/Af5AzdM.jpeg", "https://i.imgur.com/bfyQabm.jpeg", "https://i.imgur.com/yBfiAIz.jpeg", "https://i.imgur.com/wUdNmYh.jpeg", "https://i.imgur.com/PonQ4BW.jpeg", "https://i.imgur.com/4EweTGv.jpeg"],
-    url: "https://catalogo-liras.vercel.app/",
-    github: "https://github.com/ericssendelima/catalogo-liras"
+    url: "https://seu-catalogo-liras.vercel.app/",
+    github: "https://github.com/ericssendelima/react-ecommerce-portfolio"
   },
   {
     titulo: "Painel de Gerenciamento",
     descricao:
       "Sistema para gerenciamento de dados que são consultados pelo Catálogo de Produtos",
-    descricaocompleta: "Painel de gerenciamento dos dados que são consultados pelo Catálogo de Produtos - CRUD. [A funcionalidade dos pedidos está em construção]. ",
-    tags: "React JS, React-Router-Dom, Firebase, CRUD",
+    descricaocompleta: "Painel de gerenciamento dos dados que são consultados pelo Catálogo de Produtos. [A funcionalidade dos pedidos está em construção]. ",
+    tags: "React JS, React-Router, Firebase",
     images: ["https://i.imgur.com/KHXiJBl.jpeg", "https://i.imgur.com/cfxPAcF.jpeg", "https://i.imgur.com/4zcrn2o.jpeg", "https://i.imgur.com/C3MTCqX.jpeg", "https://i.imgur.com/iDVlOO5.jpeg", "https://i.imgur.com/LKWhrW9.jpeg", "https://i.imgur.com/AfHuBz6.jpeg", "https://i.imgur.com/ArGJa4L.jpeg", "https://i.imgur.com/optDMZJ.jpeg", "https://i.imgur.com/VSZ2teD.jpeg", "https://i.imgur.com/mAvRtva.jpeg", "https://i.imgur.com/a3FqC6w.jpeg", "https://i.imgur.com/h4S6dgU.jpeg", "https://i.imgur.com/2zP4iKa.jpeg" ],
     url: "",
     github: "https://github.com/ericssendelima/liras-dashboard"
