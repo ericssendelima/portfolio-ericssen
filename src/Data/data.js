@@ -5,7 +5,7 @@ export const data = [{
     descricaocompleta:
       "Projeto desenvolvido do absoluto zero, após buscar inspirações em outros portfólios na web, porém, sem copiar nenhum componente, visando desenvolver minhas habilidades de desenvolvimento e pesquisa.",
     tags: "React JS",
-    images: ["https://i.imgur.com/eItt6QM.jpeg", "https://i.imgur.com/vpDR0Ss.jpeg", "https://i.imgur.com/jHIzpoU.jpeg", "https://i.imgur.com/aa9GDGR.jpeg", "https://i.imgur.com/wm9NHLA.jpeg", "https://i.imgur.com/yiQjHIp.jpeg", "https://i.imgur.com/8OoD1mm.jpeg", "https://i.imgur.com/mXX3qmU.jpeg", "https://i.imgur.com/gYkNgM0.jpeg", "https://i.imgur.com/3nLrFgF.jpeg" ],
+    images: ["https://i.imgur.com/yiQjHIp.jpeg", "https://i.imgur.com/8OoD1mm.jpeg", "https://i.imgur.com/mXX3qmU.jpeg", "https://i.imgur.com/gYkNgM0.jpeg", "https://i.imgur.com/3nLrFgF.jpeg" ],
     url: "https://portfolio-ericssen.vercel.app/",
     github: "https://github.com/ericssendelima/portfolio-ericssen"
   },
