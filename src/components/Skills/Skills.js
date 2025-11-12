@@ -9,12 +9,11 @@ import { VscIndent } from "react-icons/vsc";
 import { SiVercel } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa6";
 import { FaNode } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { BiLogoTypescript } from "react-icons/bi";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiMongodb, SiDotnet } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { DiGithubBadge } from "react-icons/di";
 
 
